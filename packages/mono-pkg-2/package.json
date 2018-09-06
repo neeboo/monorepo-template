@@ -1,0 +1,18 @@
+{
+  "name": "mono-pkg-2",
+  "version": "0.0.0",
+  "description": "Mono package 2",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/mono-pkg-2.js",
+  "scripts": {
+    "clean": "./task clean",
+    "compile": "./task compile",
+    "test": "./task test",
+    "lint": "./task lint"
+  },
+  "dependencies": {
+    "external-dep": "1.2.3"
+  }
+}
